@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html ng-app="expedia">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Expedia hotels</title>
+
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+	<link href="css/prettyPhoto.css" rel="stylesheet"> 
+	<link href="css/animate.css" rel="stylesheet"> 
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet"> 
+
+	<script src="js/angular.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.easing.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+<body>
+	<!--banner-->
+	<section id="banner" class="banner">
+		<div class="bg-color">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="col-md-12">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="img/logo.png" class="img-responsive" style="width: 140px; margin-top: -16px;"></a>
+						</div>
+						<div class="collapse navbar-collapse navbar-right" id="myNavbar">
+							<ul class="nav navbar-nav">
+								<li class=""><a href="https://www.expedia.com/">Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row">
+					<div class="banner-info">
+						<div class="banner-logo text-center">
+							<img src="img/logo.png" class="img-responsive">
+						</div>
+						<div class="banner-text text-center">
+							<h1 class="white">Hotel deals</h1>
+							<p>Want double Expedia+ points? Book with the App!</p>
+							<a href="https://play.google.com/store/apps/details?id=com.expedia.bookings&referrer=mat_click_id%3D8d3b160fcab67f04e8d9c4a7d39cc116-20170622-159126" class="btn btn-appoint">Get the FREE Expedia App:</a>
+						</div>
+						<div class="overlay-detail text-center">
+							<a href="#service"><i class="fa fa-angle-down"></i></a>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/ banner-->
+	<br>
+	<br>
+	<div class="row text-center clearfix">
+			<h2 class="title-one">Expedia Deals </h2>
+		</div>
+	</div>
+	<hr>
+	<div ng-view></div>
+
+	<!--footer-->
+	<footer id="footer">
+		<div class="footer-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						© Expedia API technical assignment By: Moamar Alswedan
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/ footer-->
+
+    <script src="app/controller.js"></script>
+    <script src="app/service.js"></script>
+    <script src="app/app.js"></script>
+
+</body>
+</html>

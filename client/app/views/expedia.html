@@ -1,0 +1,21 @@
+<div id="blog" > 
+  <div class="container" >
+    <div class="row" ng-init = 'getAll()' >
+      <div class="col-sm-4"  ng-repeat ="hotel in hotels">
+        <div class="single-blog" >
+          <img ng-src="{{hotel.hotelInfo.hotelImageUrl}}" style="width: 150px" alt="" />
+          <h3>{{hotel.hotelInfo.hotelName}}</h3>
+          <ul class="post-meta">
+          <li><i></i><strong>City : </strong> {{hotel.hotelInfo.hotelCity}}</li>
+            <br>
+            <li><i></i><strong>Rate : </strong>{{hotel.hotelInfo.hotelGuestReviewRating}}</li>
+          </ul>
+          <div class="blog-content">
+            <p style="font-size: 12px">{{hotel.hotelInfo.description}}</p>
+          </div>
+          <a href="https://www.expedia.com/" class="btn btn-primary" target="_blank">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> 

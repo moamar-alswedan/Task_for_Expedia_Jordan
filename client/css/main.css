@@ -1,0 +1,448 @@
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+
+
+/*====================
+======Header CSS=====
+======================*/
+
+#navigation .navbar {
+  background:rgba(255, 255, 255, 0.952941);
+  border-radius: 0;
+  border-bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.298039) 0px 0px 3px;
+  padding-bottom: 8px;
+}
+
+#navigation .navbar-toggle{
+  margin-top: 20px;
+  background-color: #333;
+}
+
+#navigation .navbar-brand h1{
+  padding: 0;
+  margin: 0;
+}
+
+#navigation .navbar-nav.navbar-right li {
+	padding: 0 1px;
+}
+
+#navigation .navbar-nav.navbar-right {
+	margin-top:28px
+}
+
+#navigation .navbar-nav.navbar-right li a {
+	color: #43484E;
+	font-family: 'Roboto',sans-serif;
+	font-size: 14px;
+	padding: 0;
+	text-transform: uppercase;
+	-webkit-transition: all .9s ease 0s;
+	-moz-transition: all .9s ease 0s;
+	-o-transition: all .9s ease 0s;
+	transition: all .9s ease 0s;
+	padding: 6px 15px;
+}
+
+#navigation .navbar-inverse .navbar-nav  .active  a,  
+#navigation .navbar-inverse .navbar-nav  .active  a:focus, 
+#navigation .navbar-nav.navbar-right li a:hover {
+	color: #fff;
+	background-color: #fc7700;
+}
+
+
+
+
+
+/*=======================
+====== About Us CSS =====
+=========================*/
+
+
+#about-us {
+	background:#F6F6F6;
+	overflow: hidden;
+	padding: 85px 0;
+}
+
+#about-us h2 {
+	margin-bottom:35px
+}
+
+.title-one {
+	color: #072f54;
+	display: inline-block;
+	font-size: 32px;
+	font-weight: 600;
+	padding-bottom:10px;
+	text-align: center;
+	text-transform: uppercase;
+	position:relative
+}
+
+.title-one:after {
+	color: #fbc108;
+	content: "||";
+	position: absolute;
+	right: -40px;
+	top: -2px;
+}
+
+.title-one:before {
+	color: #fbc108;
+	content: "||";
+	left: -40px;
+	position: absolute;
+	top: 0;
+}
+
+
+#about-us h4 {
+	color: #909090;
+	margin-bottom: 50px;
+	margin-top: -5px;
+	text-transform: capitalize;
+}
+
+#about-us p {
+	font-weight:300;
+	font-size:15px
+}
+
+.about-us .col-sm-6 {
+	margin-top:50px
+}
+
+.about-us h3 {
+	font-size: 20px;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+}
+
+.about-us .tab-content {
+	background:#FFFFFF;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	padding: 25px;
+}
+
+.about-us .nav-tabs li a {
+	border-top:2px solid #f6f6f6;
+	color:#fc7700
+}
+
+.about-us .nav-tabs li.active a, 
+.about-us .nav-tabs li.active a:hover, 
+.about-us .nav-tabs li.active a:focus {
+	border-radius: 0;
+	border-top: 2px solid #fc7700;
+	color: #333333;
+}
+
+.about-us .tab-content 
+.pull-left.media-object {
+	background-color: #F6F6F6;
+	margin-right: 20px;
+	padding: 5px;
+}
+
+.skillbar {
+	position:relative;
+	display:block;
+	margin-bottom:18px;
+	box-shadow:1px 1px 0 0 #333333;
+	width:100%;
+	background:#43484E;
+	height:35px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:25%;
+	font-weight:bold;
+	font-size:13px;
+	color:#fff;
+	background-color:#fc7700;
+}
+
+.skillbar-title span {
+	float: none;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-top: 0;
+	text-align: left;
+	display:block;
+	background-color:#fc7700;
+	padding:0 15px;
+	height:35px;
+	line-height:35px;
+}
+
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background-color:#fc7700;
+	box-shadow:0 1px 0 0 #333333;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:35px;
+	line-height:35px;
+	color:#ffffff;
+}
+
+
+
+
+/
+/*=====================
+======Our Team CSS=====
+=======================*/
+
+#team-carousel {
+	position:relative
+}
+
+#our-team {
+	background-color:#f6f6f6;
+	color:#43484E;
+}
+
+#our-team h2 {
+	color:#43484E;
+	margin-bottom:35px;
+}
+
+#our-team .team-members {
+	padding:0;
+	margin-top:55px;
+	display:block;
+	overflow:hidden
+}
+
+.single-member {
+	height:430px;
+	background-color:#43484E;
+	border: 1px solid #43484E;
+	color: #f6f6f6;
+	padding: 25px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.single-member img {
+	width:100%
+}
+
+.single-member h4, 
+.single-member h5 {
+	text-align:center
+}
+
+#our-team .socials i {
+	background-color:#fff;
+	border-radius: 50%;
+	color: #43484E;
+	display: inline-block;
+	font-size:16px;
+	height: 30px;
+	line-height:28px;
+	margin-right: 5px;
+	text-align: center;
+	width: 30px;
+	border-width:1px;
+	border-color:#43484E;
+	border-style: solid;
+	opacity:.5;
+	 -webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;  
+}
+
+#our-team .socials a i:hover {
+	opacity:1;
+	color:#fff;
+	border:0
+}
+
+#our-team .socials a .fa-facebook:hover {
+	background: #3B5997;	
+}
+
+#our-team .socials a .fa-twitter:hover {
+  background:#29C5F6
+}
+
+#our-team .socials a .fa-pinterest:hover {
+  background:#C61118
+}
+
+#our-team .socials a .fa-dribbble:hover {
+  background:#FF5C93
+}
+
+#our-team .socials a .fa-linkedin:hover {
+  background:#006DC0
+}
+
+#our-team .socials a .fa-google-plus:hover {
+  background:#D13D2F
+}
+
+#our-team .socials a .fa-flickr:hover {
+  background:#7A797B
+}
+
+.member-left, .member-right {
+	position:absolute;
+	top:-43px;
+	color:#43484E
+}
+
+
+.member-left {
+	left:49%;
+}
+
+.member-right {
+	left:51%
+}
+
+
+
+
+/*=====================
+======Our Blog CSS=====
+======================*/
+
+#blog {
+	padding-bottom:75px;
+	padding-top:50px
+}
+
+.blog-heading {
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.single-blog {
+	margin-bottom: 30px;
+	background-color:#F7F7F7;
+	padding:30px;
+	transition: all 1s ease 0s;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease 0s;
+	-o-transition: all 1s ease 0s;
+	-webkit-box-shadow: 0 2px 0 0 #ddd;
+	box-shadow: 0 2px 0 0 #ddd;
+}
+
+.single-blog:hover {
+	background-color:RGBA(13, 70, 83, 0.78);;
+	color:#fff
+}
+
+.single-blog:hover.single-blog h2 {
+	color:#fff
+}
+
+.single-blog:hover.single-blog .btn-primary {
+	background-color:#fc7700;
+	color:#fff;
+	border-color:#fff;
+	transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+}
+
+.single-blog img{
+	width:100%;
+	margin-bottom:10px
+}
+
+.single-blog h2 {
+	color:#43484E;
+	font-size:24px;
+}
+
+.single-blog h2{
+	margin:0;
+	margin-bottom:15px;
+}
+
+.single-blog ul {
+	padding:0;
+	overflow:hidden;
+}
+
+.single-blog ul li {
+	border-right: 2px solid #999999;
+	float: left;
+	line-height: 10px;
+	list-style: none;
+	margin-right: 10px;
+	padding-right: 10px;
+	font-size: 12px;
+	color:#999;
+}
+
+.single-blog ul li:last-child {
+	border:none;
+}
+
+.blog-content {
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+
+.single-blog .btn-primary {
+	text-transform: uppercase;
+	border: 1px solid #fc7700;
+	color: #686868;
+	background-color: rgba(255, 255, 255, 0);
+	border-color: #fc7700;
+}
+
+.single-blog:hover.single-blog .btn-primary:hover{
+	background-color:#fc7700;
+	color:#fff;
+}
+
+#blog-detail .modal-body {
+	padding:30px;
+}
+
+#blog-detail .modal-body img {
+	width:100%
+}
+
+#blog-detail .close {
+	margin-right: -15px;
+    margin-top: -25px;
+}
+
+
+
