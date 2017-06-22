@@ -11,6 +11,7 @@ run npm start
 ## Links
 
 
-Github: https://github.com/moamar-alswedan/Task_for_Expedia_Jordan
-Heroku: expedia-task-moamar.herokuapp.com
+* Github: https://github.com/moamar-alswedan/Task_for_Expedia_Jordan
+
+* Heroku: http://expedia-task-moamar.herokuapp.com
 
